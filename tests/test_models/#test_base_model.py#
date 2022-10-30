@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+""" unittest for base_model module"""
+import unittest
+from models.base_model import BaseModel
+from datetime import datetime
+
+
+class TestBaseModel(unittest.TestCase):
+
+    def setUp(self):
+        """ Runs before each test method."""
+        pass
+
+    def tearDown(self):
+        '''Cleans up after each test_method.'''
+        pass
+
+    def test_A_instatntiation(self):
+        """ Tests BaseModel instantiation."""
+        t = datetime(2017, 06, 14T22, 31, 03, 285259)
+        
+        b = BaseModel(
+        self.assertEqual(str(
